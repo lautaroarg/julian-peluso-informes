@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Informes mensuales de pauta inmobiliaria de Julián Peluso Inmobiliaria">
+<title>Informes mensuales | Julián Peluso Inmobiliaria</title>
+<style>
+:root{color-scheme:light;--ink:#192b25;--green:#194c3c;--muted:#4d6358;--line:#d7e1d8;--paper:#f5f6ef}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 system-ui,sans-serif}
+main{width:min(1080px,calc(100% - 48px));margin:32px auto 48px}
+.hero{min-height:310px;display:grid;align-content:center;padding:clamp(26px,6vw,68px);border-radius:26px;color:#fff;background:radial-gradient(ellipse at 100% 0%,#33795e,transparent 55%),#123c30}
+p,h1,h2,h3{margin:0}
+.eyebrow{font-size:.77rem;letter-spacing:.13em;text-transform:uppercase;font-weight:750}
+.hero .eyebrow{color:#bee8cd}
+h1{font-size:clamp(2.45rem,6vw,4.75rem);line-height:1.02;letter-spacing:-.055em;max-width:12ch;margin:12px 0 17px}
+.hero p:last-child{color:#dfefe4}
+section{margin-top:34px}
+.section-head{margin-bottom:15px}
+h2{font-size:clamp(1.45rem,3vw,2rem);letter-spacing:-.035em;line-height:1.15}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:0;padding:0;list-style:none}
+.card{height:100%;min-height:208px;border:1px solid var(--line);border-radius:18px;padding:20px;display:flex;flex-direction:column;align-items:flex-start;background:#fafbf7;color:inherit}
+.card.available{background:#fff;border-color:#97bba5;text-decoration:none;transition:box-shadow .15s,border-color .15s}
+.card.available:hover{border-color:var(--green);box-shadow:0 8px 26px #194c3c1a}
+.card.available:focus-visible{outline:3px solid var(--green);outline-offset:3px}
+.status{font-size:.74rem;font-weight:700;background:#edf0e9;color:#495d52;border-radius:99px;padding:3px 9px}
+.available .status{background:#dcefe1;color:#174c39}
+h3{font-size:1.65rem;letter-spacing:-.04em;margin-top:12px}
+.dates{font-size:.9rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.cta{margin-top:auto;padding-top:16px;font-weight:750;color:var(--green)}
+.note{color:var(--muted);font-size:.83rem;margin:12px 0 0}
+@media(max-width:700px){main{width:calc(100% - 28px);margin-top:14px}.hero{min-height:250px}.cards{grid-template-columns:1fr}.card{min-height:148px}}
+@media(prefers-reduced-motion:reduce){.card.available{transition:none}}
+</style>
+</head>
+<body>
+<main>
+<header class="hero">
+<p class="eyebrow">Resultados de pauta</p>
+<h1>Julián Peluso Inmobiliaria</h1>
+<p>Informes mensuales de inversión y seguimiento comercial.</p>
+</header>
+<section aria-labelledby="informes">
+<div class="section-head"><h2 id="informes">Informes mensuales</h2></div>
+<ul class="cards">
+<li><a class="card available" href="./mes-1.html">
+<span class="status">Disponible</span>
+<h3>Mes 1</h3>
+<p class="dates"><time datetime="2026-10-01">01/10/26</time> - <time datetime="2026-10-31">31/10/26</time></p>
+<span class="cta">Ver informe <span aria-hidden="true">→</span></span>
+</a></li>
+<li><article class="card">
+<span class="status">Pendiente</span>
+<h3>Mes 2</h3>
+<p class="dates"><time datetime="2026-11-01">01/11/26</time> - <time datetime="2026-11-30">30/11/26</time></p>
+</article></li>
+<li><article class="card">
+<span class="status">Pendiente</span>
+<h3>Mes 3</h3>
+<p class="dates"><time datetime="2026-12-01">01/12/26</time> - <time datetime="2026-12-31">31/12/26</time></p>
+</article></li>
+</ul>
+<p class="note">El informe disponible del Mes 1 incluye datos hasta el 03/11/26.</p>
+</section>
+</main>
+</body>
+</html>
+

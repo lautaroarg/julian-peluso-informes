@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Informe mensual consolidado de pauta inmobiliaria de Peluso">
+<title>Peluso | Informe consolidado del mes 1</title>
+<style>
+:root{color-scheme:light;--ink:#172b26;--muted:#4b6057;--green:#174d3c;--line:#dce5de;--paper:#f5f6ef;--orange:#a04d23}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 system-ui,sans-serif}
+main{width:min(1120px,calc(100% - 48px));margin:32px auto 48px}
+header,section{border-radius:22px;padding:clamp(22px,4vw,42px)}
+header{background:#123c30;color:white;position:relative;overflow:hidden}
+header::before{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 92% 0%,#39856880,transparent 56%)}
+header>*{position:relative}
+.brand,.tag{font-size:.76rem;font-weight:750;letter-spacing:.12em;text-transform:uppercase}
+.brand{color:#b9e3c6}
+h1,h2,h3,p{margin:0}
+h1,h2{letter-spacing:-.035em;line-height:1.12}
+h1{font-size:clamp(2.1rem,5vw,3.65rem);margin:9px 0}
+h2{font-size:clamp(1.48rem,3vw,2rem);margin:0 0 12px}
+h3{font-size:1rem}
+.date{color:#d1ebd8}
+.metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:26px}
+.metric{border:1px solid #ffffff43;background:#ffffff10;border-radius:14px;padding:14px 17px}
+.metric strong{display:block;font-size:clamp(1.55rem,3vw,2.25rem);line-height:1.15;letter-spacing:-.04em}
+.metric span{display:block;color:#e0f1e5;font-size:.87rem;margin-top:5px}
+.grid{display:grid;grid-template-columns:1.06fr 1fr;gap:18px;margin-top:18px;align-items:start}
+section{background:white;border:1px solid var(--line)}
+.grid section{padding:clamp(19px,3vw,30px)}
+.tag{color:var(--green);margin-bottom:8px}
+.note{color:var(--muted);font-size:.83rem;margin-top:10px}
+.number{font-variant-numeric:tabular-nums}
+table{width:100%;border-collapse:collapse;font-size:.89rem;line-height:1.35}
+th,td{text-align:left;padding:9px 6px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--muted);font-size:.77rem}
+th:not(:first-child),td:not(:first-child){text-align:right;white-space:nowrap}
+td:last-child{font-weight:750}
+figure{margin:16px 0 0}
+.bars{display:grid;gap:10px;margin:0;padding:0;list-style:none}
+.bar-label{display:flex;justify-content:space-between;gap:12px;font-size:.84rem;line-height:1.35}
+.bar-label strong{white-space:nowrap}
+.track{height:6px;background:#edf1eb;border-radius:8px;overflow:hidden;margin-top:4px}
+.fill{display:block;width:var(--width);height:100%;background:#388163;border-radius:8px}
+.hot .fill{background:var(--orange)}
+.hot .bar-label strong{color:var(--orange)}
+.lower{margin-top:18px}
+.compare{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:16px}
+.compare div{background:#eef4ed;border-radius:12px;padding:13px 16px}
+.compare strong{display:block;font-size:1.55rem;color:var(--green);line-height:1.2}
+.compare span{font-size:.85rem;color:var(--muted)}
+.action{background:#e6f0e3;border-color:#cddfca}
+.action ol{display:grid;grid-template-columns:1fr 1fr;gap:12px;list-style:none;counter-reset:steps;margin:16px 0 0;padding:0}
+.action li{background:#ffffffba;border-radius:12px;padding:13px 15px;counter-increment:steps}
+.action li h3::before{content:counter(steps,decimal-leading-zero) " ";color:#46705b;margin-right:5px}
+.action li p{font-size:.9rem;margin-top:5px}
+footer{color:var(--muted);font-size:.83rem;margin:17px 3px 0}
+@media(max-width:760px){main{width:calc(100% - 28px);margin-top:14px}.grid{grid-template-columns:1fr}.action ol{grid-template-columns:1fr}}
+@media(max-width:440px){.metrics,.compare{grid-template-columns:1fr;gap:8px}.metric{padding:11px 13px}.metric span{margin-top:1px}th,td{padding-inline:4px}}
+@media print{@page{margin:10mm}body{background:white;font-size:11px;print-color-adjust:exact}main{width:100%;margin:0}header,section,.grid section{padding:12px}h1{font-size:30px}h2{font-size:18px}.grid{grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}.lower{margin-top:8px}.metrics,.compare{grid-template-columns:repeat(3,1fr);margin-top:8px}.action ol{grid-template-columns:1fr 1fr}.metric,.compare div,.action li{padding:8px}section{break-inside:avoid}table{font-size:10px}th,td{padding:5px}.note,.bar-label,.action li p,footer{font-size:10px}.bars{gap:5px}}
+</style>
+</head>
+<body><main>
+<header>
+<p class="brand">Peluso · Pauta inmobiliaria</p>
+<h1>Informe consolidado del mes 1</h1>
+<p class="date">Del 1 de octubre al 3 de noviembre de 2026</p>
+<div class="metrics">
+<div class="metric"><strong>$346.271</strong><span>Inversión en pauta</span></div>
+<div class="metric"><strong>13</strong><span>Tasaciones agendadas registradas</span></div>
+<div class="metric"><strong>6</strong><span>Propiedades autorizadas · 5 para venta y 1 para alquiler</span></div>
+</div>
+</header>
+
+<div class="grid">
+<section aria-labelledby="embudo">
+<p class="tag">Seguimiento comercial</p>
+<h2 id="embudo">Dónde se frenó el embudo</h2>
+<p><strong>61 de los 87 contactos (70,1 %)</strong> quedaron sin continuidad o fueron descartados.</p>
+<figure aria-label="Distribución de los 87 contactos por estado comercial">
+<ul class="bars number">
+<li class="hot"><div class="bar-label"><span>Sin respuesta o sin continuidad</span><strong>34 · 39,1 %</strong></div><div class="track" aria-hidden="true"><span class="fill" style="--width:39.1%"></span></div></li>
+<li><div class="bar-label"><span>Descartados</span><strong>27 · 31,0 %</strong></div><div class="track" aria-hidden="true"><span class="fill" style="--width:31%"></span></div></li>
+<li><div class="bar-label"><span>Tasaciones agendadas registradas</span><strong>13 · 14,9 %</strong></div><div class="track" aria-hidden="true"><span class="fill" style="--width:14.9%"></span></div></li>
+<li><div class="bar-label"><span>Tasados, con desacuerdo sobre el valor</span><strong>5 · 5,7 %</strong></div><div class="track" aria-hidden="true"><span class="fill" style="--width:5.7%"></span></div></li>
+<li><div class="bar-label"><span>Otros registros del seguimiento</span><strong>4 · 4,6 %</strong></div><div class="track" aria-hidden="true"><span class="fill" style="--width:4.6%"></span></div></li>
+<li><div class="bar-label"><span>En evaluación de la tasación</span><strong>3 · 3,4 %</strong></div><div class="track" aria-hidden="true"><span class="fill" style="--width:3.4%"></span></div></li>
+<li><div class="bar-label"><span>Visita realizada, con autorización pendiente</span><strong>1 · 1,1 %</strong></div><div class="track" aria-hidden="true"><span class="fill" style="--width:1.1%"></span></div></li>
+</ul>
+<figcaption class="note">De los 34 casos sin continuidad, 13 nunca respondieron, 11 dejaron de hacerlo al coordinar o enviar datos, 1 después de recibir la tasación y 9 se infieren por diferencia. Documentación y zona explican 19 de los 27 descartes.</figcaption>
+</figure>
+</section>
+
+<section aria-labelledby="costos">
+<p class="tag">Inversión</p>
+<h2 id="costos">Costos del mes</h2>
+<table class="number">
+<thead><tr><th scope="col">Indicador</th><th scope="col">Base</th><th scope="col">Costo promedio</th></tr></thead>
+<tbody>
+<tr><td>Contacto según Meta</td><td>125</td><td>$2.770</td></tr>
+<tr><td>Contacto según Peluso</td><td>87</td><td>$3.980</td></tr>
+<tr><td>Tasación agendada</td><td>13</td><td>$26.636</td></tr>
+<tr><td>Tasación realizada</td><td>Al menos 6</td><td>Hasta $57.712</td></tr>
+<tr><td>Propiedad autorizada</td><td>6</td><td>$57.712</td></tr>
+</tbody>
+</table>
+<p class="note">Costos en pesos argentinos sobre la inversión total. El costo por tasación realizada es un tope estimado sobre las 6 documentadas.</p>
+<p class="note">El seguimiento individual identifica 1 autorización y 3 casos sin detalle, agrupados en «Otros registros». Queda pendiente vincular las 6 autorizaciones del balance mensual con los registros individuales.</p>
+</section>
+</div>
+
+<section class="lower" aria-labelledby="meta">
+<h2 id="meta">Diferencia entre Meta y Peluso</h2>
+<p>Queda por conciliar el equivalente al <strong>30,4 % del total de Meta</strong>. Para ubicar la diferencia, hay que verificar el alcance y el criterio de conteo de ambas bases y cruzar los registros por fecha, teléfono o ID de conversación.</p>
+<div class="compare">
+<div><strong>125</strong><span>Contactos según Meta</span></div>
+<div><strong>87</strong><span>Contactos según Peluso</span></div>
+<div><strong>38</strong><span>Contactos de diferencia</span></div>
+</div>
+</section>
+
+<section class="lower action" aria-labelledby="accion">
+<h2 id="accion">Próximo paso para optimizar los resultados de todo el embudo</h2>
+<p>Revisar los <strong>34 prospectos sin respuesta o sin continuidad</strong>, descartar a quienes no califican o perdieron interés y reactivar a quienes pueden avanzar con la tasación.</p>
+<ol>
+<li><h3>Llamar directamente por WhatsApp</h3><p>Buscar una respuesta y confirmar si el prospecto sigue interesado en tasar.</p></li>
+<li><h3>Hacer seguimiento hasta obtener una respuesta</h3><p>Enviar un mensaje fácil de contestar. «¿Seguís interesado en tasar tu propiedad? Sí / Más adelante / No».</p></li>
+</ol>
+</section>
+<footer><strong>Videos destacados.</strong> Según el seguimiento comercial, los que más consultas generaron fueron Julián en la calle y Julián con el suéter rojo.</footer>
+</main></body></html>
